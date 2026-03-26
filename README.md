@@ -14,6 +14,9 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+### **💡 部署說明：**
+> 編譯完成後，前端的部署需配合 `moda-agent-api-relay` 進行。請參考 moda-agent-api-relay 文件中的 **🚀 部署與操作指令**，將產生的靜態檔移至指定資料夾並使用 Docker Compose 啟動服務。
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
